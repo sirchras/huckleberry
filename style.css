@@ -13,11 +13,11 @@ body {
 main {
   border-top: 8px solid hsl(0deg, 0%, 40%);
   background: hsl(0deg, 0%, 60%);
-  font-size: 1.25rem;
 }
 
 p {
   color: hsl(0deg, 0%, 10%);
+  font-size: 1.5rem;
 }
 
 .max-width-wrapper {
@@ -27,7 +27,7 @@ p {
 }
 
 .intro-chunk {
-  font-size: 1.5rem;
+  max-width: 400px;
 }
 
 .intro-chunk strong {
@@ -36,6 +36,7 @@ p {
 
 .title {
   margin-bottom: 48px;
+  font-size: 2.5rem;
 }
 
 .card {
