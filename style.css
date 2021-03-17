@@ -10,3 +10,29 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.indented-heading {
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+p {
+  color: hsl(0deg, 0%, 10%);
+  font-size: 1rem;
+}
