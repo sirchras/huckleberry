@@ -11,6 +11,7 @@ body {
 
 /* Add styles here! */
 main {
+  padding: 64px 0;
   border-top: 8px solid hsl(0deg, 0%, 40%);
   background: hsl(0deg, 0%, 60%);
 }
@@ -20,18 +21,21 @@ p {
   font-size: 1.5rem;
 }
 
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
 .max-width-wrapper {
   max-width: 800px;
   margin: 0 auto;
-  padding: 64px 16px;
 }
 
 .intro-chunk {
   max-width: 400px;
 }
 
-.intro-chunk strong {
-  color: hsl(160deg, 100%, 30%);
+.intro-chunk, .title {
+  margin: 64px 0;
 }
 
 .title {
